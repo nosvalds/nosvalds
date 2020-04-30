@@ -46,3 +46,12 @@
     display: flex;
     justify-content: center;
 }
+
+/* Skills Card */
+
+.skills-card h3 {
+    text-align: center;
+}
+.skills-card li {
+    padding: 0.25rem;
+}
