@@ -49,9 +49,24 @@
 
 /* Skills Card */
 
+.skills-card {
+    margin-bottom: 2rem;
+    border: var(--white) 5px dotted;
+}
+
 .skills-card h3 {
     text-align: center;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+
 }
+
+.skills-card ul {
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 .skills-card li {
-    padding: 0.25rem;
+    padding: 0.35rem;
+    
 }
