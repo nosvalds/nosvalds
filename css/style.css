@@ -1,0 +1,17 @@
+/* style.css */
+
+/* Using a reset.css */
+@import '_reset.css';
+
+/* settings */
+@import '_settings.css';
+
+@import '_typography.css';
+
+@import '_icons-buttons.css';
+
+@import '_forms.css';
+
+@import '_nav-social.css';
+
+@import '_main-partials.css';

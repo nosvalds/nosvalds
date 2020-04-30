@@ -1,0 +1,30 @@
+/* _forms */
+
+textarea,input {
+    border: 1px solid var(--blue-grey);
+    font-size: 1.5rem;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    margin-bottom: 1rem;
+}
+
+.form-section input,textarea {
+    margin-bottom: 2rem;
+}
+
+.form-contact {
+    max-width: 65%;
+}
+
+/* make forms fit entire screen for small screens */
+@media (max-width: 500px) {
+    .form-contact {
+        max-width: 100%;
+    }
+}

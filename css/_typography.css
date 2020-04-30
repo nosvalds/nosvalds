@@ -1,0 +1,53 @@
+body,.submit-button,nav {
+    font-family: 'Slabo 13px', Serif;
+    color: var(--white);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.accent-color {
+    color: var(--blue);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3,.submit-button {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+p {
+    font-family: 'Lato', Sans-Serif;
+}
+
+ul {
+    list-style: circle;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-nav a {
+    font-size: 0.75rem;
+}
+
+.section-header {
+    background-color: var(--blue-grey);
+    padding: 3rem;
+    text-align: center;
+    border-bottom: var(--blue) 5px solid;
+}

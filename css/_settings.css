@@ -1,0 +1,31 @@
+/* Fonts */
+
+/* border-box for everything */
+* {
+    box-sizing: border-box;
+}
+
+/* Setting CSS color variables and root font size */
+:root {
+    /* West Coast Theme from photo https://color.adobe.com/West-Coast-color-theme-14693330 */
+    --black: #222621;
+    --blue-grey: #64818C;
+    --green: #4C592E;
+    --blue: #ACD1F2;
+    --white: #E4EAF2;
+
+    --icon-size: 0.6rem;
+
+    font-size: 100%;
+}
+
+/* Responsive Font Sizing */
+@media screen and (max-size: 700px) {
+	:root {
+		font-size: 90%;
+	}
+}
+
+body {
+    background-color: var(--black);
+}

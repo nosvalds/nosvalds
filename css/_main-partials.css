@@ -1,0 +1,48 @@
+/* Card */
+.card {
+    background-color: var(--blue-grey);
+    box-shadow: var(--blue);
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    padding: 0.5rem 0;
+}
+
+.card h4 {
+    padding: 1rem 5rem;
+}
+
+.card p {
+    padding: 0 0.25rem 1rem 0.25rem;
+}
+
+/* Main Header */
+.logo {
+    padding: 1rem 0.5rem;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.social-nav {
+    display: flex;
+}
+
+/* Footer */
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+}
