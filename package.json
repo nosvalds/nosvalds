@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "my portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosvalds/portfolio-site.git"
+  },
+  "author": "Nikolas Osvalds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosvalds/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/nosvalds/portfolio-site#readme"
+}
