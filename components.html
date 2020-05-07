@@ -19,9 +19,17 @@
         <!-- css -->
         <link href="https://fonts.googleapis.com/css?family=Lato|Slabo+13px" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css"> <!-- link to CSS file e.g. "../style.css" -->
+        <style>
+            .components-wrapper {
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+        </style>
 
     </head>
     <body>
+    
+    <div class="components-wrapper">
         <div class="component-border" style="margin-left: 1rem;">
         <!-- Atoms -->
         <a href="index.html"><h1 class="logo"><span class="accent-color">Nik</span>olas.<span class="accent-color">O</span></h1></a>
@@ -182,26 +190,49 @@
             </section>
             <section class="skills-card">
                     <h3 class="skills-header">Technology</h3>
-                    <ul>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>React</li>
-                        <li><a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS (M)</a></li>
-                        <li>Git</li>
-                        <li>NPM/Gulp</li>
-
-                    </ul>
+                    <div class="two-col-list">
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>React</li>
+                            <li><a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS (M)</a></li>
+                            <li>Git</li>
+                            <li>NPM/Gulp</li>
+                        </ul>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>React</li>
+                            <li><a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS (M)</a></li>
+                            <li>Git</li>
+                            <li>NPM/Gulp</li>
+                        </ul>
+                    </div>
             </section>
             <section class="skills-card">
                     <h3 class="skills-header">Education</h3>
                     <ul>
-                        <li>Full Stack Coding Fellowship &#8286; DevelopeMe_ &#8286; June 20'</li>
-                        <li>B.Sc. & M.Sc. Mech. Engineering &#8286; Brown University &#8286; 11', 12'</li>
+                        <li>Full Stack Coding Fellowship 
+                            <ul>
+                                <li>
+                                    DevelopeMe_ - June 20'
+                                </li>
+                            </ul> 
+                        </li>
+                        <li>B.Sc. & M.Sc. Mech. Engineering 
+                            <ul>
+                                <li>
+                                    Brown University - 11' & 12'
+                                </li>
+                            </ul> 
+                        </li>
                     </ul>
             </section>
         </section>
 
     </div>
+</div>
     </body>
 </html>

@@ -51,7 +51,7 @@
 
 .skills-card {
     margin-bottom: 2rem;
-    border: var(--white) 5px dotted;
+    /* border: var(--white) 5px dotted; */
 }
 
 .skills-card h3 {
@@ -69,4 +69,16 @@
 .skills-card li {
     padding: 0.35rem;
     
+}
+
+/* Skills Gallery */
+
+.skills-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+.two-col-list {
+    display: flex;
 }
