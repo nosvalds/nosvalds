@@ -23,8 +23,13 @@
 
 .card p {
     padding: 0 0.25rem 1rem 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
+.card-links {
+    justify-content: center;
+    padding-bottom: 1rem;
+}
 /* Main Header */
 .logo {
     padding: 1rem 0.5rem;
