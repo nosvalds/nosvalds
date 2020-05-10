@@ -16,10 +16,12 @@ textarea,input {
 
 .form-section input,textarea {
     margin-bottom: 2rem;
+    border-radius: 5px;
 }
 
 .form-contact {
     max-width: 65%;
+    margin-bottom: 1rem;
 }
 
 /* make forms fit entire screen for small screens */
