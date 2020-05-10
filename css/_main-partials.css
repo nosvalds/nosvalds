@@ -8,8 +8,6 @@
 }
 
 .card img {
-    width: 100%;
-    object-fit: cover;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -23,7 +21,7 @@
 }
 
 .card p {
-    padding: 0 0.25rem 1rem 0.25rem;
+    padding: 0 0.5rem 1rem 0.5rem;
     margin-bottom: 3rem;
 }
 
@@ -108,9 +106,21 @@
     gap: 1rem;
 }
 
+/* About Me Gallery */
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 /* for smaller screens collapse to 1 grid column */
 @media (max-width: 500px) {
-    .project-gallery,.skills-gallery {
+    .project-gallery,.skills-gallery,.about-section {
         grid-template-columns: 1fr;
+    }
+    .about-section p:nth-child(2) {
+        order: 1;
     }
 }
