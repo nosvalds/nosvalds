@@ -115,9 +115,23 @@
     gap: 1rem;
 }
 
+.about-section img {
+    border-radius: 5px;
+}
+
+.about-section p {
+    padding: 1rem;
+}
+
 /* for smaller screens collapse to 1 grid column */
 @media (max-width: 500px) {
-    .project-gallery,.skills-gallery,.about-section {
+    .project-gallery,.skills-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-section {
         grid-template-columns: 1fr;
     }
     .about-section p:nth-child(2) {
