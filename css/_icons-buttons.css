@@ -49,3 +49,13 @@
   background-color: var(--blue-grey);
   color: var(--white);
 }
+
+.social-link:hover {
+  color: var(--white);
+}
+
+.submit-button:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  cursor: pointer;
+}
