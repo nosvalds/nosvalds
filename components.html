@@ -59,7 +59,13 @@
 
         <!-- Responsive??? https://codepen.io/RobotsPlay/pen/zNQKmd -->
         <ul>
-            <li>List Item 1</li>
+            <li>List Item 1
+                <ul class="sub-list">
+                    <li>
+                        Brown University - 11' & 12'
+                    </li>
+                </ul> 
+            </li>
             <li>List Item 2</li>
             <li>List Item 3</li>
         </ul>
@@ -119,8 +125,9 @@
             <p>For this page I was given a design in Figma and created the page in HTML and CSS from the ground up. Starting with creating a set of re-usable components then building up the full pages.</p>
         </section>
 
-        <!-- Skills Card -->
+        <!-- Skills Cards -->
 
+        <!-- 1 bullet list -->
         <section class="skills-card">
             <h3 class="skills-header">Industry</h3>
             <ul>
@@ -129,6 +136,52 @@
                 <li>Account management</li>
             </ul>
         </section>
+
+        <!-- 2 column bullet list -->
+        <section class="skills-card">
+            <h3 class="skills-header">Technology</h3>
+            <div class="two-col-list">
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>React</li>
+                    <li><a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS (M)</a></li>
+                    <li>Git</li>
+                    <li>NPM/Gulp</li>
+                </ul>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>React</li>
+                    <li><a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS (M)</a></li>
+                    <li>Git</li>
+                    <li>NPM/Gulp</li>
+                </ul>
+            </div>
+    </section>
+
+    <!-- list with sub-bullets -->
+    <section class="skills-card">
+            <h3 class="skills-header">Education</h3>
+            <ul>
+                <li>Full Stack Coding Fellowship 
+                    <ul class="sub-list">
+                        <li>
+                            DevelopeMe_ - June 20'
+                        </li>
+                    </ul> 
+                </li>
+                <li>B.Sc. & M.Sc. Mech. Engineering 
+                    <ul class="sub-list">
+                        <li>
+                            Brown University - 11' & 12'
+                        </li>
+                    </ul> 
+                </li>
+            </ul>
+    </section>
 
         <!-- Organisms -->
 
@@ -212,26 +265,25 @@
                     </div>
             </section>
             <section class="skills-card">
-                    <h3 class="skills-header">Education</h3>
-                    <ul>
-                        <li>Full Stack Coding Fellowship 
-                            <ul>
-                                <li>
-                                    DevelopeMe_ - June 20'
-                                </li>
-                            </ul> 
-                        </li>
-                        <li>B.Sc. & M.Sc. Mech. Engineering 
-                            <ul>
-                                <li>
-                                    Brown University - 11' & 12'
-                                </li>
-                            </ul> 
-                        </li>
-                    </ul>
+                <h3 class="skills-header">Education</h3>
+                <ul>
+                    <li>Full Stack Coding Fellowship 
+                        <ul class="sub-list">
+                            <li>
+                                DevelopeMe_ - June 20'
+                            </li>
+                        </ul> 
+                    </li>
+                    <li>B.Sc. & M.Sc. Mech. Engineering 
+                        <ul class="sub-list">
+                            <li>
+                                Brown University - 11' & 12'
+                            </li>
+                        </ul> 
+                    </li>
+                </ul>
             </section>
         </section>
-
     </div>
 </div>
     </body>

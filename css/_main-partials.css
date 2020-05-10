@@ -68,7 +68,17 @@
 
 .skills-card li {
     padding: 0.35rem;
-    
+}
+
+.sub-list li {
+    list-style: none;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.sub-list li:before {
+    content: '\2610';
+    margin-right: 0.25rem;
 }
 
 /* Skills Gallery */
