@@ -42,6 +42,10 @@ nav a {
     padding: 0 0.5rem;
 }
 
+nav a:hover {
+    background-color: var(--green);
+}
+
 .main-nav a:nth-child(1) {
     border-right: var(--white) 2px dotted;
     border-bottom: var(--white) 2px dotted;
