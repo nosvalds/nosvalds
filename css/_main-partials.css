@@ -97,3 +97,11 @@
 .two-col-list {
     display: flex;
 }
+
+/* Projects Gallery */
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
