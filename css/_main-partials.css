@@ -4,13 +4,14 @@
     box-shadow: var(--blue);
     border-radius: 5px;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
 }
 
 .card img {
     width: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .card h3 {
@@ -23,13 +24,14 @@
 
 .card p {
     padding: 0 0.25rem 1rem 0.25rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 3rem;
 }
 
 .card-links {
     justify-content: center;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
+
 /* Main Header */
 .logo {
     padding: 1rem 0.5rem;
@@ -56,7 +58,6 @@
 
 .skills-card {
     margin-bottom: 2rem;
-    /* border: var(--white) 5px dotted; */
 }
 
 .skills-card h3 {
@@ -104,4 +105,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    gap: 1rem;
+}
+
+/* for smaller screens collapse to 1 grid column */
+@media (max-width: 500px) {
+    .project-gallery,.skills-gallery {
+        grid-template-columns: 1fr;
+    }
 }
