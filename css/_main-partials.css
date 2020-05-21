@@ -49,7 +49,38 @@
 
 .main-footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.footer-logo h5 {
+    margin-left: 2rem;
+}
+
+/* for smaller screens hide logo */
+@media (max-width: 750px) {
+    .footer-logo {
+        display: none;
+    }
+
+    .main-footer {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 650px) {
+    .main-footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-nav a {
+        padding: 1rem;
+        border-top: var(--white) 2px dotted;
+    }
+
+    .main-footer .social-link {
+        margin: 1rem;
+    }
 }
 
 /* Skills Card */
