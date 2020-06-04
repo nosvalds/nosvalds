@@ -47,9 +47,7 @@
 
             <section class="project-gallery">
                 <section class="card">
-                    <img src="https://api.thumbnail.ws/api/abb44b02c6b41fecf8d9c4f60a222c3086da62efb2ae/thumbnail/get?url=http://nik.developme.space/&width=400" alt="photography website homepage thumbnail" class="card-img" /> <!-- https://api.thumbnail.ws/api/abb44b02c6b41fecf8d9c4f60a222c3086da62efb2ae/thumbnail/get?url=http://nik.developme.space/&width=400 
-                        
-                    images/photo_site_thumbnail.png-->
+                    <img src="https://api.thumbnail.ws/api/abb44b02c6b41fecf8d9c4f60a222c3086da62efb2ae/thumbnail/get?url=https://nik.developme.space/photography-site/&width=400" alt="photography website homepage thumbnail" class="card-img" /> <!-- images/photo_site_thumbnail.png-->
                     <h3 class="card-header">Photography Site</h3>
                     <h4 class="keywords">HTML &#8286; CSS &#8286; Atomic Design &#8286; OOCSS &#8286; Design Interpretation &#8286; Responsive Design</h4>
                     <p>For this page I was given a design in Figma and created the page in HTML and CSS from the ground up. Starting with creating a set of re-usable components then building up the full pages.</p>
@@ -57,7 +55,7 @@
                         <a class="social-link" href="https://github.com/nosvalds/photography-site" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a target="_blank" class="social-link" href="http://nik.developme.space">
+                        <a target="_blank" class="social-link" href="https://nik.developme.space/photography-site/">
                             <i class="fas fa-link"></i>
                         </a>
                     </section>
@@ -157,11 +155,7 @@
             </section>
 
             <h2 class="section-header" id="contact">Contact</h2>
-            <form action="" class="form-contact" method="POST">
-                <section class="form-section">
-                    <label for="message">Message:</label>
-                    <textarea name="message" id="message" cols="75" rows="12" required></textarea>
-                </section>
+            <form action="/form_handler.php" class="form-contact" method="POST">
                 <section class="form-section">
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name" required/>
@@ -170,7 +164,11 @@
                         <label for="email">Email:</label>
                         <input type="email" name="email" id="email" value="email@domain.com" required/>
                 </section>
-                <input type="submit" class="submit-button" value="Send Message"/>
+                <section class="form-section">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="75" rows="12" required></textarea>
+                </section>
+                <button type="submit" class="submit-button">Send Message</button>
             </form>
 
             <footer class="main-footer">
