@@ -1,10 +1,10 @@
 /* Social Links */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: 1fr 1fr;
     gap: 0.8rem 0.5rem;
-    width: 120px;
+    width: 80px;
     margin: 1rem;
 }
 
@@ -57,6 +57,12 @@ nav a:hover {
 
 .main-nav a:nth-child(3) {
     border-right: var(--white) 2px dotted;
+}
+
+@media (max-width: 530px) {
+    .main-header nav {
+        display: none;
+    }
 }
 
 /* footer */
