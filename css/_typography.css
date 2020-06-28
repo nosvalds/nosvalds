@@ -52,3 +52,13 @@ a {
     text-align: center;
     border-bottom: var(--blue) 5px solid;
 }
+
+.contact-section a {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 600px) { 
+    .contact-section a {
+        font-size: 1.5rem;
+    }
+}

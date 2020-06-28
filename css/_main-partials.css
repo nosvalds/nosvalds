@@ -154,6 +154,14 @@
     padding: 1rem;
 }
 
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
 /* for smaller screens collapse to 1 grid column */
 @media (max-width: 500px) {
     .project-gallery,.skills-gallery {
