@@ -63,7 +63,7 @@ a {
 
 @media (max-width: 600px) { 
     .contact-section a {
-        font-size: 1.25rem;
+           font-size: 1.25rem;
     }
     .contact-section h3 {
         font-size: 1.5rem;
