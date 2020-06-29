@@ -3,10 +3,17 @@ let cleanCSS = require('gulp-clean-css');
 let htmlmin = require('gulp-htmlmin');
 
 // Image copy from src/ to dist/
-gulp.task('image-cpy', () => {
-    return gulp.src('./src/images/**/*', { base: 'src'})
+gulp.task('image-cpy-icons', () => {
+    return gulp.src('./src/images/icons/*', { base: 'src'})
         .pipe(gulp.dest('./dist/'))
 })
+
+gulp.task('image-cpy-photos', () => {
+    return gulp.src('./src/images/photos/*', { base: 'src'})
+        .pipe(gulp.dest('./dist/'))
+})
+
+gulp.task('image-cpy', gulp.parallel('image-cpy-icons', 'image-cpy-photos'));
 
 // Image copy watcher function
 gulp.task('image-watcher', () => {
