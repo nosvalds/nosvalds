@@ -154,12 +154,20 @@
     padding: 1rem;
 }
 
+/* Contact */
+
 .contact-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
     margin-bottom: 1rem;
+}
+
+.contact-section h3 {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /* for smaller screens collapse to 1 grid column */

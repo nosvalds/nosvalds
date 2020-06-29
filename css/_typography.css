@@ -54,7 +54,11 @@ a {
 }
 
 .contact-section a {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-section h3 {
+    font-size: 2rem;
 }
 
 @media (max-width: 600px) { 
