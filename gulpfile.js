@@ -39,7 +39,7 @@ gulp.task('minify-html', () => {
       .pipe(gulp.dest('dist'));
   });
 
-  // HTML minifier watcher
+// HTML minifier watcher
 gulp.task('html-min-watcher', ()=> {
     return gulp.watch('./src/index.html', gulp.task('minify-html'));
 });
