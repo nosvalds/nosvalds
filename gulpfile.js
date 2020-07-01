@@ -17,7 +17,7 @@ gulp.task('image-cpy', gulp.parallel('image-cpy-icons', 'image-cpy-photos'));
 
 // Image copy watcher function
 gulp.task('image-watcher', () => {
-    return gulp.watch('./src/img/**/*', gulp.task('image-cpy'));
+    return gulp.watch('./src/images/**/*', gulp.task('image-cpy'));
 })
 
 // CSS minifying function from /css/style.css to /docs/css/style.css for publishing
