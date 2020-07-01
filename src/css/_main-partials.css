@@ -39,6 +39,11 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
+}
+
+.push {
+    margin-left: auto;
 }
 
 .social-nav {

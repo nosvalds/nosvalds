@@ -61,7 +61,22 @@ nav a:hover {
 
 @media (max-width: 530px) {
     .main-header nav {
-        display: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: none;
+        flex: auto;
+    }
+
+    .main-nav a:nth-child(-n+3)  {
+        border-right: var(--white) 2px dotted;
+    }
+
+    .main-nav a:nth-child(n) {
+        border-bottom: none; 
+    }
+
+    .main-header nav a {
+        border-top: var(--white) 2px dotted;
+        padding: 1rem 0.5rem;
     }
 }
 
@@ -69,6 +84,7 @@ nav a:hover {
 .main-footer {
     border-top: var(--white) 2px dotted;
 }
+
 .footer-nav {
     display: flex;
     align-content: space-around;
