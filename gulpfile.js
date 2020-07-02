@@ -1,15 +1,18 @@
-let gulp = require('gulp');
-let cleanCSS = require('gulp-clean-css');
-let htmlmin = require('gulp-htmlmin');
+const gulp = require('gulp');
+const cleanCSS = require('gulp-clean-css');
+const htmlmin = require('gulp-htmlmin');
+const imagemin = require('gulp-imagemin');
 
 // Image copy from src/ to dist/
 gulp.task('image-cpy-icons', () => {
     return gulp.src('./src/images/icons/*', { base: 'src'})
+        .pipe(imagemin())
         .pipe(gulp.dest('./dist/'))
 })
 
 gulp.task('image-cpy-photos', () => {
     return gulp.src('./src/images/photos/*', { base: 'src'})
+        .pipe(imagemin({verbose: true}))
         .pipe(gulp.dest('./dist/'))
 })
 
@@ -17,7 +20,7 @@ gulp.task('image-cpy', gulp.parallel('image-cpy-icons', 'image-cpy-photos'));
 
 // Image copy watcher function
 gulp.task('image-watcher', () => {
-    return gulp.watch('./src/images/**/*', gulp.task('image-cpy'));
+    return gulp.watch('./src/images/**/*.*', gulp.task('image-cpy'));
 })
 
 // CSS minifying function from /css/style.css to /docs/css/style.css for publishing
