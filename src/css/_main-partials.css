@@ -21,8 +21,9 @@
 }
 
 .card p {
-    padding: 0 0.5rem 1rem 0.5rem;
-    margin-bottom: 3rem;
+    padding: 0 0.75rem 0.5rem 0.75rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
 }
 
 .card-links {
