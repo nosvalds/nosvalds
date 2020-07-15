@@ -1,4 +1,4 @@
-body,.submit-button,nav {
+body,.submit-button,nav, time {
     font-family: 'Slabo 13px', Serif;
     color: var(--white);
 }
@@ -29,7 +29,7 @@ h3,.submit-button {
     font-size: 1.5rem;
 }
 
-h4 {
+h4,time {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.7;
@@ -70,6 +70,10 @@ a {
 
 .contact-section h3 {
     font-size: 2rem;
+}
+
+time {
+    color: var(--black);
 }
 
 @media (max-width: 600px) { 

@@ -65,6 +65,10 @@ img {
   cursor: pointer;
 }
 
-.keywords h4 {
+.date-time {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
   background-color: var(--blue);
+  margin-bottom: 1rem;
 }
