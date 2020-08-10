@@ -169,6 +169,17 @@ h1 {
     padding: 1rem;
 }
 
+/* Blogs Gallery */
+
+.blog-section {
+    text-align: center;
+}
+
+.blog-section h3 {
+    padding: 1rem;
+}
+
+
 /* Contact */
 
 .contact-section {
