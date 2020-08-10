@@ -85,8 +85,8 @@ h1 {
 @media (max-width: 650px) {
     .main-footer {
         flex-direction: column-reverse;
-        align-items: center;
-    }
+        align-items: stretch;
+   }
 
     .footer-nav a {
         padding: 1rem;

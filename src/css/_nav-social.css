@@ -19,6 +19,7 @@
 .linear {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .linear a {
@@ -30,7 +31,7 @@
 /* header */
 .main-header nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     text-align: center;
     }
@@ -46,28 +47,19 @@ nav a:hover {
     background-color: var(--green);
 }
 
-.main-nav a:nth-child(1) {
-    border-right: var(--white) 2px dotted;
+.main-nav a:nth-child(n+1):nth-child(-n+3) {
     border-bottom: var(--white) 2px dotted;
 }
 
-.main-nav a:nth-child(2) {
-    border-bottom: var(--white) 2px dotted;
-}
-
-.main-nav a:nth-child(3) {
+.main-nav a:nth-child(1), .main-nav a:nth-child(2), .main-nav a:nth-child(4),.main-nav a:nth-child(5) {
     border-right: var(--white) 2px dotted;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 665px) {
     .main-header nav {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: none;
         flex: auto;
-    }
-
-    .main-nav a:nth-child(-n+3)  {
-        border-right: var(--white) 2px dotted;
     }
 
     .main-nav a:nth-child(n) {
@@ -75,7 +67,6 @@ nav a:hover {
     }
 
     .main-header nav a {
-        border-top: var(--white) 2px dotted;
         padding: 1rem 0.5rem;
     }
 }
@@ -94,6 +85,31 @@ nav a:hover {
     padding: 0 1rem;
 }
 
-.footer-nav a:nth-child(-n+3)  {
+.footer-nav a:nth-child(-n+5)  {
     border-right: var(--white) 2px dotted;
+}
+
+@media (max-width: 500px) {
+    .footer-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;
+        flex: auto;
+    }
+
+    .footer-nav a:nth-child(n) {
+        border-bottom: none; 
+    }
+
+    .footer-nav a:nth-child(-n+5)  {
+        border-right: none;
+    }
+
+    .footer-nav a:nth-child(1), .footer-nav a:nth-child(2), .footer-nav a:nth-child(4),.footer-nav a:nth-child(5) {
+        border-right: var(--white) 2px dotted;
+    }
+
+    .footer-nav nav a {
+        padding: 1rem 0.5rem;
+    }
 }

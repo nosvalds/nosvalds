@@ -7,3 +7,14 @@
 - [x] Embed link to West Coast Tour - https://westcoastrollsalong-blog.tumblr.com
 - [x] Embed link to engineering project - http://engin1000.pbworks.com/w/page/36784131/RC%20Wing%20Sailboat%20Project%20Page
   - Used free card creator here: https://embed.ly/code
+
+# Site Notes
+## Tooling
+`gulp` to compile to `/dist`
+`gulp watch` to watch and auto-compile during development
+
+View changes locally with `/dist/index.html`
+
+## Deployment
+  - Deploys to github pages from `/dist`
+  `npm run deploy`
