@@ -179,6 +179,11 @@ h1 {
     padding: 1rem;
 }
 
+.embedly-card {
+    padding: 0.25rem 0.5rem;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+}
 
 /* Contact */
 
