@@ -1,5 +1,6 @@
 # To Do
-- [ ] Make break out detail pages for each project
+- [ ] Make break out case study medium posts for each project
+  - [ ] Photography Site - https://medium.com/@nosvalds/photography-site-7f5302076e06
 - [x] Make a "blog" section on main page and start a blog
   - [x] Start Personal Blog on medium - https://medium.com/@Sriram23/how-to-embed-medium-blogs-in-websites-e7f70feec920
     - Used free card creator here to embed: https://embed.ly/code
