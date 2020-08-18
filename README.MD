@@ -16,6 +16,8 @@
 - [x] Embed link to West Coast Tour - https://westcoastrollsalong-blog.tumblr.com
 - [x] Embed link to engineering project - http://engin1000.pbworks.com/w/page/36784131/RC%20Wing%20Sailboat%20Project%20Page
   - Used free card creator here: https://embed.ly/code
+  - Used Medium Widget: https://medium-widget.pixelpoint.io/
+  
 
 # Site Notes
 ## Tooling

@@ -185,10 +185,31 @@ h1 {
     padding: 1rem;
 }
 
-.embedly-card {
-    padding: 0.25rem 0.5rem;
-    border: 2px solid var(--blue);
+.medium-widget-article__description, .medium-widget-article__title, .medium-widget-article__author-name, .medium-widget-article__date {
+    color: var(--white) !important;
+}
+
+.medium-widget-article__row {
+    margin: 0 1rem !important;
+}
+
+.medium-widget-article__item {
+    border: 5px solid var(--blue-grey) !important;
+    border-radius: 5px !important;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+    text-align: left !important;
+}
+
+.legacy-card {
+    border: 5px solid var(--blue-grey);
     border-radius: 5px;
+    padding: 0 0.5rem;
+}
+
+.medium-widget-article__item:hover, .legacy-card:hover {
+    border: 3px solid var(--blue) !important;
+    box-shadow: 0 0 0 2px var(--blue) !important;
 }
 
 /* Contact */
