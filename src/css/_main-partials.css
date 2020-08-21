@@ -1,15 +1,12 @@
 /* Card */
 .card {
-    background-color: var(--blue-grey);
-    border: 2px solid var(--black);
-    box-shadow: var(--blue);
+    box-shadow: 0 0 0 3px var(--blue-grey);
     border-radius: 5px;
     text-align: center;
     max-width: 450px;
 }
 
 .haslink:hover {
-    border: 2px solid var(--blue);
     box-shadow: 0 0 0 2px var(--blue);
 }
 
