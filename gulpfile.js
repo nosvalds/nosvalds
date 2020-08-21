@@ -3,6 +3,17 @@ const cleanCSS = require('gulp-clean-css');
 const htmlmin = require('gulp-htmlmin');
 const imagemin = require('gulp-imagemin');
 
+// JS copy from src/ to dist/
+gulp.task('js-cpy', () => {
+    return gulp.src('./src/js/*')
+        .pipe(gulp.dest('./dist/js/'))
+})
+
+// JS copy watcher function
+gulp.task('js-watcher', () => {
+    return gulp.watch('./src/js/*', gulp.task('js-cpy'));
+})
+
 // Image copy from src/ to dist/
 gulp.task('image-cpy-icons', () => {
     return gulp.src('./src/images/icons/*', { base: 'src'})
@@ -48,7 +59,7 @@ gulp.task('html-min-watcher', ()=> {
 });
 
 // default gulp task for on-demand compilation
-gulp.task('default', gulp.parallel('minify-html','minify-css','image-cpy'));
+gulp.task('default', gulp.parallel('minify-html','minify-css','image-cpy','js-cpy'));
 
 // watch task to turn on the watcher to automate compilation when changes are made
-gulp.task('watch',gulp.parallel('css-min-watcher','html-min-watcher','image-watcher'));
+gulp.task('watch',gulp.parallel('css-min-watcher','html-min-watcher','image-watcher', 'js-watcher'));

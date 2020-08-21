@@ -26,6 +26,9 @@
         <link rel="apple-touch-icon" href="/images/apple-touch-icon.png"> 
         <script src="https://kit.fontawesome.com/94bc2e1e49.js" crossorigin="anonymous"></script>
 
+        <!-- Custom JS -->
+        <script defer src="./js/scripts.js"></script>
+
         <!-- css -->
         <link href="https://fonts.googleapis.com/css?family=Lato%7CSlabo+13px" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
@@ -239,7 +242,7 @@
             <h2 class="section-header" id="blogs">Blogs</h2>
             <section class="blog-section">
                 <h3>Medium Feed</h3>
-                    <div id="medium-widget"></div>
+                    <div id="medium-widget" aria-label="medium story feed"></div>
                 <h3>Other Blogs</h3>
                 <div class="legacy-blogs about-section">
                     <div class="legacy-card">
@@ -290,6 +293,6 @@
         </div>
         <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
         <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@nosvalds/","postsPerLine":1,"limit":4,"picture":"small","fields":["description","author","publishAt"],"ratio":"square"}})</script>  
-        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+        <script src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
     </body>
 </html>
