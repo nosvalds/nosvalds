@@ -16,7 +16,9 @@
 
             // loop over the imgElements and set the alt text to the text from the description elements
             imgElements.forEach((img, i) => {
-                img.alt = texts[i];
+                if (!img.alt) {
+                    img.alt = texts[i];
+                }
             })
 
             // stop observing
