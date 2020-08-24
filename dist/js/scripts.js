@@ -1,30 +1,54 @@
 ((d, w) => {
-    // These functions wait until the medium-widget draws those sections then using DOM manipulation to add alt text to the images for accessibility purposes.
-    const observerA = new MutationObserver(() => {
-        if (d.getElementsByClassName("medium-widget-article__image").length > 0) {
-            let imgParent = Array.from(d.getElementsByClassName("medium-widget-article__image")).map((img) => img.firstElementChild);
-            let desc = Array.from(d.getElementsByClassName("medium-widget-article__description")).map((val) => val.textContent);
+    
+    // select the static HTML element that all this DOM manipulation will be contained to
+    let widget = d.getElementById("medium-widget");
 
-            imgParent.forEach((img, i) => {
-                img.alt = desc[i];
+    const mainImgObserver = new MutationObserver(() => {
+        // if these elements have been rendered in the DOM
+        if (widget.getElementsByClassName("medium-widget-article__image").length > 0) {
+            // get the <a> link elements from the DOM, then map to get the child <img> elements
+            let imgElements = Array.from(widget.getElementsByClassName("medium-widget-article__image"))
+                .map((a) => a.firstElementChild);
+
+            // get the article description elements, then map to get the textConent of those elements
+            let texts = Array.from(widget.getElementsByClassName("medium-widget-article__description"))
+                .map((val) => val.textContent);
+
+            // loop over the imgElements and set the alt text to the text from the description elements
+            imgElements.forEach((img, i) => {
+                if (!img.alt) {
+                    img.alt = texts[i];
+                }
             })
-            observerA.disconnect();
+
+            // stop observing
+            mainImgObserver.disconnect();
         }
     })
 
-    const observerB = new MutationObserver(() => {
-        if (d.getElementsByClassName("medium-widget-article__avatar-picture").length > 0) {
-            let imgParent = Array.from(d.getElementsByClassName("medium-widget-article__avatar-picture"));
+    const avatarObserver = new MutationObserver(() => {
+        if (widget.getElementsByClassName("medium-widget-article__avatar-picture").length > 0) {
+            let imgElement = Array.from(widget.getElementsByClassName("medium-widget-article__avatar-picture"));
 
-            imgParent.forEach((img, i) => {
+            // since the avatar is a picture of the author and the authors name is adjacent to the avatar img, you can just set alt=""
+            imgElement.forEach((img) => {
                 img.alt = "";
             })
-            observerB.disconnect();
+
+            // stop observing
+            avatarObserver.disconnect();
         }
     })
 
-    observerA.observe(d, {attributes: false, childList: true, characterData: false, subtree:true});
-    observerB.observe(d, {attributes: false, childList: true, characterData: false, subtree:true});
-    
+    let options = {
+        attributes: false, 
+        childList: true, 
+        characterData: false, 
+        subtree:true
+    }
 
-    })(document, window); // and call it immediately
+    // initiate the observations
+    mainImgObserver.observe(widget, options);
+    avatarObserver.observe(widget, options);
+    
+    })(document, window);
