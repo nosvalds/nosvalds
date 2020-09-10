@@ -29,3 +29,7 @@ View changes locally with `/dist/index.html`
 ## Deployment
   - Deploys to github pages from `/dist`
   `npm run deploy`
+
+
+## Thumbnails
+

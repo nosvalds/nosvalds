@@ -72,6 +72,46 @@
             <h2 class="section-header" id="projects">Projects</h2>
             <section class="project-gallery">
                 <section class="card">
+                    <img src="./images/photos/bagajob.png" alt="bagajob thumbnail" class="card-img" />
+                    <h3 class="card-header">Bagajob Web App</h3>
+                    <h4 class="keywords">PHP &#8286; Laravel &#8286; Passport &#8286; RESTful API &#8286; Authentication &#8286; Email API &#8286; Git </h4>
+                    <time class="date-time" datetime="2020-06">Sept 2020</time>
+                    <p>
+                        Bagajob is a web app that I've started working on with some of my former coding bootcamp classmates. It's designed for job seekers to organize and track the applications they've made. It stores a variety of job specific information (salary, closing date, etc.) along with notes on interviews.   
+                    </p>
+                    <p>
+                        So far I've owned the back end set up an Authentication workflow and finishing the main API routes that another developer started. The reset password workflow includes integration with Mailjet's API to send reset password links to the user. I also used some custom middleware to send additional information to the client during the login workflow.
+                    </p>
+                    <section class="card-links linear">
+                        <a class="social-link" href="https://github.com/develop-me/bagajob-API/tree/development" target="_blank" role="link" aria-label="github repository link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a target="_blank" class="social-link" href="https://obscure-brushlands-94336.herokuapp.com" role="link" aria-label="websitelink">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </section>
+                </section>
+                <section class="card">
+                    <img src="./images/photos/digitalhumani_email.png" alt="digitalhumani reforestation monthly email" class="card-img" />
+                    <h3 class="card-header">DigitalHumani Reforestation API</h3>
+                    <h4 class="keywords">Node.js &#8286; Serverless &#8286; AWS Lambda &#8286; AWS DynamoDB &#8286; AWS Email (SES) &#8286; Git </h4>
+                    <time class="date-time" datetime="2020-06">Aug 2020</time>
+                    <p>
+                        <a href="https://digitalhumani.com/">DigitalHumani</a> is a free API that connects websites and mobile apps to trusted reforestation organizations to have trees planted. The MVP was built by volunteers and continues to be maintained and improved by a small team. I created functionality to send an email containing the number of trees requested to be planted by a client organization in a given month. This allows the administrator to do this with a simple API call rather than manually as before.
+                    </p>
+                    <p>
+                        The API is based in AWS and the deployment is managed using the serverless framework. I created a Lambda function that is triggered by a POST request containing the client ID, month, and to email. This function then queries the DynamoDB database to determine the number of trees requested by that client for the given month. That information is then injected into an HTML template I created from mailchimp blueprints and sends it using AWS Simple Email Service (SES).     
+                    </p>
+                    <section class="card-links linear">
+                        <a class="social-link" href="https://gist.github.com/nosvalds/c5d7ab17bcf095ed797200399aab538d" target="_blank" role="link" aria-label="github gist link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a target="_blank" class="social-link" href="https://digitalhumani.com/" role="link" aria-label="websitelink">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </section>
+                </section>
+                <section class="card">
                     <img src="./images/photos/COY.jpg" alt="come on you team app thumbnail" class="card-img" />
                     <h3 class="card-header">Football Team Randomizer App</h3>
                     <h4 class="keywords">React &#8286; Redux &#8286; Axios/Thunk &#8286; RESTful API &#8286; Laravel &#8286; GitHub/Heroku Deployment &#8286; Git </h4>
@@ -131,26 +171,6 @@
                         </a>
                     </section>
                 </section>
-                <section class="card">
-                    <img src="./images/photos/pong_ping.jpg" alt="ping pong redux web app homepage thumbnail" class="card-img" />
-                    <h3 class="card-header">Ping Pong Scoring App</h3>
-                    <h4 class="keywords">React &#8286; Redux &#8286; RESTful API &#8286; Translation &#8286; Axios/Thunk &#8286;</h4>
-                    <time class="date-time" datetime="2020-06">June 2020</time>
-                    <p>
-                        This is a React/Redux app I created during Week 11 of the DevelopeMe_ coding bootcamp. I built up the app throughout the week's exercises learning Redux, React Redux (subscribing and dispatching), as well as API actions to utilize a pre-existing backend API. 
-                    </p>
-                    <p>
-                        The app is meant to be used to keep score for ping pong games. You can configure player names, the winning # of points, and serve frequency. Then you're able to keep score while playing the game. Finally you can see the history of past matches that were played. I also did a basic translation to Esperanto.
-                    </p>
-                    <section class="card-links linear">
-                        <a class="social-link" href="https://github.com/nosvalds/ping-pong-redux" target="_blank" role="link" aria-label="github repository link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a target="_blank" class="social-link" href="https://nosvalds.github.io/ping-pong-redux/" role="link" aria-label="websitelink" >
-                            <i class="fas fa-link"></i>
-                        </a>
-                    </section>
-                </section>
                 <section class="card haslink">
                     <a href="https://medium.com/@nosvalds/photography-site-7f5302076e06?source=friends_link&sk=c426c073b28061068a7793f176d6a346" role="link" aria-label="websitelink">
                         <img src="./images/photos/photo_site.jpg" alt="photography website homepage thumbnail" class="card-img" />
@@ -180,7 +200,7 @@
                         <li>Quick Learner</li>
                         <li>Customer Service</li>
                         <li>Technical Project Management</li>
-                        <li>Team Lead</li>
+                        <li>Team Leadership</li>
                         <li>System Architecture and Sizing</li>
                         <li>End User Hardware Deployment and Testing</li>
                         <li>Extensive international experience</li>
@@ -191,9 +211,9 @@
                     <div class="two-col-list">
                         <ul>
                             <li>HTML5/CSS</li>
-                            <li>JavaScript</li>
+                            <li>JavaScript (Node.js & DOM)</li>
                             <li>PHP</li>
-                            <li>MySQL</li>
+                            <li>MySQL, AWS DynamoDB</li>
                             <li>React/Redux</li>
                             <li><a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS (M)</a></li>
                             <li>Git, GitHub, Git Flow</li>
@@ -204,7 +224,7 @@
                             <li>Web design theory</li>
                             <li>AWS/Heroku LAMP stack</li>
                             <li>Object Oriented Programming</li>
-                            <li>Laravel - Blade and RESTful APIs</li>
+                            <li>Laravel - Blade, REST API, Auth</li>
                             <li>AWS - serverless framework, λ, SES</li>
                         </ul>
                     </div>
