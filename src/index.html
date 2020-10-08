@@ -65,7 +65,7 @@
                         This page showcases some of the projects I've worked on while learning web development.
                     </p>
                     <p>
-                        As a recent graduate of DevelopMe_'s full stack coding fellowship with a tech focused background I'm seeking full-stack roles around Bristol, U.K. or remote.
+                        Graduate of DevelopMe_'s full stack coding fellowship with a tech focused background.
                     </p>
                 </div>
             </section>
@@ -74,13 +74,13 @@
                 <section class="card">
                     <img src="./images/photos/bagajob.png" alt="bagajob thumbnail" class="card-img" />
                     <h3 class="card-header">Bagajob Web App</h3>
-                    <h4 class="keywords">PHP &#8286; Laravel &#8286; Passport &#8286; RESTful API &#8286; Authentication &#8286; Email API &#8286; Git </h4>
+                    <h4 class="keywords">PHP &#8286; Laravel &#8286; Passport &#8286; RESTful API &#8286; Authentication &#8286; Email API &#8286; Git &#8286; AWS &#8286; Capistrano </h4>
                     <time class="date-time" datetime="2020-06">Sept 2020</time>
                     <p>
-                        Bagajob is a web app that I've started working on with some of my former coding bootcamp classmates. It's designed for job seekers to organize and track the applications they've made. It stores a variety of job specific information (salary, closing date, etc.) along with notes on interviews.   
+                        Bagajob is a web app that I've been working on with some of my former coding bootcamp classmates. It's designed for job seekers to organize and track the applications they've made. It stores a variety of job specific information (salary, closing date, etc.) along with notes on the application and interviews.   
                     </p>
                     <p>
-                        So far I've owned the back end set up an Authentication workflow and finishing the main API routes that another developer started. The reset password workflow includes integration with Mailjet's API to send reset password links to the user. I also used some custom middleware to send additional information to the client during the login workflow.
+                        I owned the back end set up an Authentication workflow, finishing the main API routes that another developer started, and deployment to AWS EC2. The reset password workflow includes integration with Mailjet's API to send reset password links to the user. I also used some custom middleware to send additional information to the client during the login workflow.
                     </p>
                     <section class="card-links linear">
                         <a class="social-link" href="https://github.com/develop-me/bagajob-API/tree/development" target="_blank" role="link" aria-label="github repository link">
@@ -97,10 +97,10 @@
                     <h4 class="keywords">Node.js &#8286; Serverless &#8286; AWS Lambda &#8286; AWS DynamoDB &#8286; AWS Email (SES) &#8286; Git </h4>
                     <time class="date-time" datetime="2020-06">Aug 2020</time>
                     <p>
-                        <a href="https://digitalhumani.com/">DigitalHumani</a> is a free API that connects websites and mobile apps to trusted reforestation organizations to have trees planted. The MVP was built by volunteers and continues to be maintained and improved by a small team. I created functionality to send an email containing the number of trees requested to be planted by a client organization in a given month. This allows the administrator to do this with a simple API call rather than manually as before.
+                        <a href="https://digitalhumani.com/">DigitalHumani</a> is a free API that connects websites and mobile apps to trusted reforestation organizations to have trees planted. The MVP was built by volunteers and continues to be maintained and improved by a small team. I created functionality to send an email containing the number of trees requested to be planted by a client organization in a given month. This allows the administrator to do this with a simple API call rather than manually as before. I also implemented the backend for the forgot password workflow.
                     </p>
                     <p>
-                        The API is based in AWS and the deployment is managed using the serverless framework. I created a Lambda function that is triggered by a POST request containing the client ID, month, and to email. This function then queries the DynamoDB database to determine the number of trees requested by that client for the given month. That information is then injected into an HTML template I created from mailchimp blueprints and sends it using AWS Simple Email Service (SES).     
+                        The API is hosted in AWS and the deployment is managed using the serverless framework. I created a Lambda function that is triggered by a POST request containing the client ID, month, and to email. This function then queries the DynamoDB database to determine the number of trees requested by that client for the given month. That information is then injected into an HTML template I created from mailchimp blueprints and sends it using AWS Simple Email Service (SES).     
                     </p>
                     <section class="card-links linear">
                         <a class="social-link" href="https://gist.github.com/nosvalds/c5d7ab17bcf095ed797200399aab538d" target="_blank" role="link" aria-label="github gist link">

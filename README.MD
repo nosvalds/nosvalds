@@ -18,6 +18,8 @@
   - Used free card creator here: https://embed.ly/code
   - Used Medium Widget: https://medium-widget.pixelpoint.io/
   
+- Timeline CSS?
+  - https://codemyui.com/vertical-timeline-resumes/
 
 # Site Notes
 ## Tooling
