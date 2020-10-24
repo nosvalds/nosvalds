@@ -91,25 +91,27 @@
                         </a>
                     </section>
                 </section>
-                <section class="card">
-                    <img src="./images/photos/digitalhumani_email.png" alt="digitalhumani reforestation monthly email" class="card-img" />
-                    <h3 class="card-header">DigitalHumani Reforestation API</h3>
-                    <h4 class="keywords">Node.js &#8286; Serverless &#8286; AWS Lambda &#8286; AWS DynamoDB &#8286; AWS Email (SES) &#8286; Git </h4>
-                    <time class="date-time" datetime="2020-06">Aug 2020</time>
-                    <p>
-                        <a href="https://digitalhumani.com/">DigitalHumani</a> is a free API that connects websites and mobile apps to trusted reforestation organizations to have trees planted. The MVP was built by volunteers and continues to be maintained and improved by a small team. I created functionality to send an email containing the number of trees requested to be planted by a client organization in a given month. This allows the administrator to do this with a simple API call rather than manually as before. I also implemented the backend for the forgot password workflow.
-                    </p>
-                    <p>
-                        The API is hosted in AWS and the deployment is managed using the serverless framework. I created a Lambda function that is triggered by a POST request containing the client ID, month, and to email. This function then queries the DynamoDB database to determine the number of trees requested by that client for the given month. That information is then injected into an HTML template I created from mailchimp blueprints and sends it using AWS Simple Email Service (SES).     
-                    </p>
-                    <section class="card-links linear">
-                        <a class="social-link" href="https://gist.github.com/nosvalds/c5d7ab17bcf095ed797200399aab538d" target="_blank" role="link" aria-label="github gist link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a target="_blank" class="social-link" href="https://digitalhumani.com/" role="link" aria-label="websitelink">
-                            <i class="fas fa-link"></i>
-                        </a>
-                    </section>
+                <section class="card haslink">
+                    <a href="https://medium.com/@nosvalds/password-workflows-with-nodejs-on-aws-736e66cee71" role="link" aria-label="websitelink">
+                        <img src="./images/photos/digitalhumani_email.png" alt="digitalhumani reforestation monthly email" class="card-img" />
+                        <h3 class="card-header">DigitalHumani Reforestation API</h3>
+                        <h4 class="keywords">Node.js &#8286; Serverless &#8286; AWS Lambda &#8286; AWS DynamoDB &#8286; AWS Email (SES) &#8286; Git </h4>
+                        <time class="date-time" datetime="2020-06">Aug 2020</time>
+                        <p>
+                            <a href="https://digitalhumani.com/">DigitalHumani</a> is a free API that connects websites and mobile apps to trusted reforestation organizations to have trees planted. The MVP was built by volunteers and continues to be maintained and improved by a small team. I created functionality to send an email containing the number of trees requested to be planted by a client organization in a given month. This allows the administrator to do this with a simple API call rather than manually as before. I also implemented the backend for the forgot password workflow.
+                        </p>
+                        <p>
+                            The API is hosted in AWS and the deployment is managed using the serverless framework. I created a Lambda function that is triggered by a POST request containing the client ID, month, and to email. This function then queries the DynamoDB database to determine the number of trees requested by that client for the given month. That information is then injected into an HTML template I created from mailchimp blueprints and sends it using AWS Simple Email Service (SES).     
+                        </p>
+                        <section class="card-links linear">
+                            <a class="social-link" href="https://gist.github.com/nosvalds/c5d7ab17bcf095ed797200399aab538d" target="_blank" role="link" aria-label="github gist link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a target="_blank" class="social-link" href="https://digitalhumani.com/" role="link" aria-label="websitelink">
+                                <i class="fas fa-link"></i>
+                            </a>
+                        </section>
+                    </a>
                 </section>
                 <section class="card">
                     <img src="./images/photos/COY.jpg" alt="come on you team app thumbnail" class="card-img" />
