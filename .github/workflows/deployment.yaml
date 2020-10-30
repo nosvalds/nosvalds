@@ -13,4 +13,4 @@
          port: ${{ secrets.PORT }}
          username: ${{ secrets.USERNAME }}
          key: ${{ secrets.KEY }}
-         script: cd /portfolio_site_gitact; git pull; gulp; cp -r ./dist/* ../gitactiontest/.; rm -rf ./dist
+         script: cd ./portfolio_site_gitact; git pull; gulp; cp -r ./dist/* ../gitactiontest/.; rm -rf ./dist
