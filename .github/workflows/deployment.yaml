@@ -12,8 +12,7 @@
        uses: appleboy/ssh-action@master
        with:
          host: ${{ secrets.HOST }}
+         port: ${{ secrets.PORT }}
          username: ${{ secrets.USERNAME }}
          key: ${{ secrets.KEY }}
-         port: ${{ secrets.PORT }}
-         passphrase: ${{ secrets.PASS }}
          script: cd /portfolio_site_gitact; git pull; gulp; cp -r ./dist/* ../gitactiontest/.; rm -rf ./dist
