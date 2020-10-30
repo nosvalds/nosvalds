@@ -1,6 +1,6 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/user/public_html/
-    - / -R dist $DEPLOYPATH
+# ---
+# deployment:
+#   tasks:
+#     - export DEPLOYPATH=/home/user/public_html/
+#     - / -R dist $DEPLOYPATH
 
