@@ -9,17 +9,21 @@
 - Git Hub Flow/Git Flow
 - React
 - Node.js
+- PHP (Laravel)
 
 ## 💡💡 Working Knowledge
 - Azure (Web Apps, ACI)
 - AWS (Lambda, DynamoDB, SES)
+- Serverless Framework
 - Asynchronous JavaScript
 - XML & XSLT
 - Docker
 - Express.js
+- Python
 
 ## 💡 Learning/Basics
 - Redis
-- Postgres
+- PostgresQL
 - docker-compose
 - Vue.js
+- Terraform
