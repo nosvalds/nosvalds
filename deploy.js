@@ -8,6 +8,6 @@ ghpages.publish('dist', {
     repo: 'ssh://nikolaso@nikolaso.com:22007/home/nikolaso/deploy'
   }, (err) => {
       if (err) {
-        console.log("Error deploying to nikolaso.com" + err)
+        console.log("Error deploying to nikolaso.com " + err)
       }
   });
