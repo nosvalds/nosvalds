@@ -8,14 +8,8 @@ View changes locally with `/dist/index.html`
 ## Deployment
 ```
 npm run deploy
-ssh njo-
-cp -R deploy/* public_html/
 ```
-
-### Pushing to Kualo
-
-gh-pages is pushing there but not deploying automatically with the .cpanel.yml file.
-
-- To Do: Open a Ticket on this with Kualo when you get a chance
+- This packages up /dist/ directory and pushes it to kualo hosting using the gh-pages library. 
+- Kualo then auto-deploys it based on the .cpanel.yml file script
 
 
