@@ -3,7 +3,7 @@ const ghpages = require('gh-pages');
 /**
  * This task pushes to the `main` branch of the configured `repo`.
  */
-ghpages.publish('dist', {
+ghpages.publish(['dist', 'dist/.cpanel.yml'], {
     branch: 'main',
     repo: 'ssh://nikolaso@nikolaso.com:22007/home/nikolaso/deploy'
   }, (err) => {
