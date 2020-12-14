@@ -20,10 +20,10 @@
 - Docker
 - Express.js
 - Python
+- Vue.js
 
 ## 💡 Learning/Basics
 - Redis
 - PostgreSQL
 - docker-compose
-- Vue.js
 - Terraform
