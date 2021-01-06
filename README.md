@@ -27,3 +27,5 @@
 - PostgreSQL
 - docker-compose
 - Terraform
+- Wagtail
+- Dokku
