@@ -12,7 +12,7 @@
 - PHP (Laravel)
 
 ## 💡💡 Working Knowledge
-- Azure (Web Apps, ACI)
+- Azure (Web Apps, ACI, Functions)
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
 - Asynchronous JavaScript
@@ -21,6 +21,8 @@
 - Express.js
 - Python
 - Vue.js
+- Mocha Testing of Express/Azure Functions
+- ESLint and Prettier implementation
 
 ## 💡 Learning/Basics
 - Redis
