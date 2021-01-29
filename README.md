@@ -12,7 +12,7 @@
 - PHP (Laravel)
 
 ## 💡💡 Working Knowledge
-- Azure (Web Apps, ACI, Functions, AppInsights Node SDK)
+- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK)
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
 - Asynchronous JavaScript
@@ -22,7 +22,7 @@
 - Python
 - Vue.js
 - Mocha/Chai Tests on Express/Azure Functions
-- Postman integration tests
+- Postman/Newman integration tests
 - ESLint and Prettier implementation
 
 ## 💡 Learning/Basics
@@ -32,3 +32,4 @@
 - Terraform
 - Wagtail
 - Dokku
+- Kusto Query Language (KQL)
