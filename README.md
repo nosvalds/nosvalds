@@ -6,6 +6,7 @@
 
 ## 💡💡💡 Proficient
 - Node.js
+- Asynchronous JavaScript (Promises, async/await)
 - GitHub Actions CI/CD
 - Git Hub Flow/Git Flow
 - React
@@ -15,7 +16,6 @@
 - Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK)
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
-- Asynchronous JavaScript
 - XML & XSLT (SaxonJS)
 - Docker
 - Express.js
@@ -30,6 +30,6 @@
 - PostgreSQL
 - docker-compose
 - Terraform
-- Wagtail
+- Django/Wagtail
 - Dokku
 - Kusto Query Language (KQL)
