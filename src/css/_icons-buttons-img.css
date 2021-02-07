@@ -3,6 +3,14 @@ img {
   width: 100%;
 }
 
+.green-badge {
+  width: 200px;
+}
+
+.green-link {
+  margin-left: 0.5rem;
+}
+
 .social-link {
     box-sizing: content-box;
     padding-bottom: 0.3rem;
