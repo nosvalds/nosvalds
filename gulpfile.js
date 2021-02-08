@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const cleanCSS = require('gulp-clean-css');
 const htmlmin = require('gulp-htmlmin');
 const imagemin = require('gulp-imagemin');
+const webp = require('gulp-webp');
 
 // JS copy from src/ to dist/
 gulp.task('js-cpy', () => {
@@ -36,6 +37,7 @@ gulp.task('image-cpy-icons', () => {
 gulp.task('image-cpy-photos', () => {
     return gulp.src('./src/images/photos/*', { base: 'src'})
         .pipe(imagemin({verbose: true}))
+        .pipe(webp())
         .pipe(gulp.dest('./dist/'))
 })
 
