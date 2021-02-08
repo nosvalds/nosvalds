@@ -4,7 +4,7 @@
   "description": "my portfolio website",
   "main": "index.js",
   "scripts": {
-    "deploy": "NODE_DEBUG=gh-pages node deploy.js"
+    "deploy": "gulp && NODE_DEBUG=gh-pages node deploy.js"
   },
   "repository": {
     "type": "git",

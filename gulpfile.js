@@ -9,6 +9,18 @@ gulp.task('js-cpy', () => {
         .pipe(gulp.dest('./dist/js/'))
 })
 
+// favicon/webmanifest copy from src/ to dist/
+gulp.task('fv-cpy', () => {
+    return gulp.src('./src/favicon.ico')
+        .pipe(gulp.dest('./dist/'))
+})
+
+// favicon/webmanifest copy from src/ to dist/
+gulp.task('manifest-cpy', () => {
+    return gulp.src('./src/site.webmanifest')
+        .pipe(gulp.dest('./dist/'))
+})
+
 // JS copy watcher function
 gulp.task('js-watcher', () => {
     return gulp.watch('./src/js/*', gulp.task('js-cpy'));
@@ -59,7 +71,7 @@ gulp.task('html-min-watcher', ()=> {
 });
 
 // default gulp task for on-demand compilation
-gulp.task('default', gulp.parallel('minify-html','minify-css','image-cpy','js-cpy'));
+gulp.task('default', gulp.parallel('minify-html','minify-css','image-cpy','js-cpy', 'fv-cpy', 'manifest-cpy'));
 
 // watch task to turn on the watcher to automate compilation when changes are made
 gulp.task('watch',gulp.parallel('css-min-watcher','html-min-watcher','image-watcher', 'js-watcher'));
