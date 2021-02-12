@@ -9,6 +9,7 @@
 - Asynchronous JavaScript (Promises, async/await)
 - GitHub Actions CI/CD
 - Git Hub Flow/Git Flow
+- Postman/Newman integration tests
 - React
 - PHP (Laravel)
 
@@ -22,7 +23,6 @@
 - Python
 - Vue.js
 - Mocha/Chai Tests on Express/Azure Functions
-- Postman/Newman integration tests
 - ESLint and Prettier implementation
 
 ## 💡 Learning/Basics
