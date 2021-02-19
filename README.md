@@ -17,7 +17,7 @@
 - Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK)
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
-- XML & XSLT (SaxonJS)
+- XML & XSLT (Saxon-JS/Saxon-HE)
 - Docker
 - Express.js
 - Python
@@ -26,6 +26,7 @@
 - ESLint and Prettier implementation
 
 ## 💡 Learning/Basics
+- Java
 - Redis
 - PostgreSQL
 - docker-compose
