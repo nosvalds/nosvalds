@@ -22,8 +22,9 @@
 - Express.js
 - Python
 - Vue.js
-- Mocha/Chai Tests on Express/Azure Functions
+- Mocha/Chai Tests on Express.js/Azure Functions
 - ESLint and Prettier implementation
+- Kusto Query Language (KQL)
 
 ## 💡 Learning/Basics
 - Java
@@ -33,4 +34,4 @@
 - Terraform
 - Django/Wagtail
 - Dokku
-- Kusto Query Language (KQL)
+
