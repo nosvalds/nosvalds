@@ -14,7 +14,7 @@
 - PHP (Laravel)
 
 ## 💡💡 Working Knowledge
-- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK)
+- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK, API Management)
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
 - XML & XSLT (Saxon-JS/Saxon-HE)
@@ -34,4 +34,6 @@
 - Terraform
 - Django/Wagtail
 - Dokku
+- Mocking HTTP/WebSockets APIs with Node.js
+- CLI Tools with Node.js
 
