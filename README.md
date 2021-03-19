@@ -37,3 +37,4 @@
 - Mocking HTTP/WebSockets APIs with Node.js
 - CLI Tools with Node.js
 
+[![Source Karma badge for @nosvalds](https://sourcekarma-og.vercel.app/api/nosvalds/github)](https://sourcekarma.vercel.app/nosvalds)
