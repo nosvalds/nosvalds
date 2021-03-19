@@ -14,7 +14,7 @@
 - PHP (Laravel)
 
 ## 💡💡 Working Knowledge
-- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK, API Management)
+- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK, API Management, App Gateway)
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
 - XML & XSLT (Saxon-JS/Saxon-HE)
@@ -27,6 +27,7 @@
 - Kusto Query Language (KQL)
 
 ## 💡 Learning/Basics
+- Angular
 - Java
 - Redis
 - PostgreSQL
