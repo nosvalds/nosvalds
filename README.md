@@ -14,6 +14,10 @@
 - PHP (Laravel)
 
 ## 💡💡 Working Knowledge
+- Node.js
+  - Streams
+  - Mocking HTTP/WebSockets APIs
+  - Developing CLI Tools
 - Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK, API Management, App Gateway)
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
@@ -35,7 +39,4 @@
 - Terraform
 - Django/Wagtail
 - Dokku
-- Mocking HTTP/WebSockets APIs with Node.js
-- CLI Tools with Node.js
 
-[![Source Karma badge for @nosvalds](https://sourcekarma-og.vercel.app/api/nosvalds/github)](https://sourcekarma.vercel.app/nosvalds)
