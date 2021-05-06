@@ -26,9 +26,10 @@
 - Express.js
 - Python
 - Vue.js
-- Mocha/Chai Tests on Express.js/Azure Functions
+- Mocha/Chai Tests on Node
 - ESLint and Prettier implementation
 - Kusto Query Language (KQL)
+- dependabot
 
 ## 💡 Learning/Basics
 - Angular
