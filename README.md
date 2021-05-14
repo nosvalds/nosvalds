@@ -40,4 +40,6 @@
 - Terraform
 - Django/Wagtail
 - Dokku
+- Node Memory Debugging
+- Azure ARM Template Deployment
 
