@@ -30,16 +30,16 @@
 - ESLint and Prettier implementation
 - Kusto Query Language (KQL)
 - dependabot
+- Redis
 
 ## 💡 Learning/Basics
 - Angular
 - Java
-- Redis
 - PostgreSQL
 - docker-compose
 - Terraform
 - Django/Wagtail
 - Dokku
 - Node Memory Debugging
-- Azure ARM Template Deployment
+- Azure ARM/Bicep Deployment
 
