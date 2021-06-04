@@ -43,3 +43,4 @@
 - Node Memory Debugging
 - Azure ARM/Bicep Deployment
 - Apache Solr
+- Kubernetes
