@@ -31,6 +31,8 @@
 - Kusto Query Language (KQL)
 - dependabot
 - Redis
+- Apache Solr
+- Kubernetes
 
 ## 💡 Learning/Basics
 - Angular
@@ -42,5 +44,3 @@
 - Dokku
 - Node Memory Debugging
 - Azure ARM/Bicep Deployment
-- Apache Solr
-- Kubernetes
