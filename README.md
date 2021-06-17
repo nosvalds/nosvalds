@@ -33,9 +33,9 @@
 - Redis
 - Apache Solr
 - Kubernetes
+- Angular
 
 ## 💡 Learning/Basics
-- Angular
 - Java
 - PostgreSQL
 - docker-compose
