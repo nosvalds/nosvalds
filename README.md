@@ -10,6 +10,7 @@
 - GitHub Actions CI/CD
 - Git Hub Flow/Git Flow
 - Postman/Newman integration tests
+- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK, API Management, App Gateway)
 - React
 - PHP (Laravel)
 
@@ -18,7 +19,7 @@
   - Streams
   - Mocking HTTP/WebSockets APIs
   - Developing CLI Tools
-- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK, API Management, App Gateway)
+- PostgreSQL
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
 - XML & XSLT (Saxon-JS/Saxon-HE)
@@ -37,7 +38,6 @@
 
 ## 💡 Learning/Basics
 - Java
-- PostgreSQL
 - docker-compose
 - Terraform
 - Django/Wagtail
