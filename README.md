@@ -10,7 +10,8 @@
 - GitHub Actions CI/CD
 - Git Hub Flow/Git Flow
 - Postman/Newman integration tests
-- Azure (Web Apps, ACI, Serverless Functions, AppInsights Node SDK, API Management, App Gateway)
+- Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management)
+- dependabot (automation)
 - React
 - PHP (Laravel)
 
@@ -19,6 +20,7 @@
   - Streams
   - Mocking HTTP/WebSockets APIs
   - Developing CLI Tools
+- Azure (Web Apps, App Gateway)
 - PostgreSQL
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
@@ -30,7 +32,6 @@
 - Mocha/Chai Tests on Node
 - ESLint and Prettier implementation
 - Kusto Query Language (KQL)
-- dependabot
 - Redis
 - Apache Solr
 - Kubernetes
@@ -44,3 +45,4 @@
 - Dokku
 - Node Memory Debugging
 - Azure ARM/Bicep Deployment
+- International Development Financing
