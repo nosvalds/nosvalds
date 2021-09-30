@@ -33,7 +33,7 @@
 - ESLint and Prettier implementation
 - Kusto Query Language (KQL)
 - Redis
-- Apache Solr
+- Apache Solr administration (on K8s)
 - Kubernetes
 - Angular
 
