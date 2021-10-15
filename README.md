@@ -38,6 +38,7 @@
 - Angular
 
 ## 💡 Learning/Basics
+- GitOps (flux)
 - Java
 - docker-compose
 - Terraform
