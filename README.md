@@ -10,7 +10,7 @@
 - GitHub Actions CI/CD
 - Git Hub Flow/Git Flow
 - Postman/Newman integration tests
-- Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management)
+- Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments)
 - dependabot (automation)
 - React
 - PHP (Laravel)
@@ -35,15 +35,15 @@
 - Redis
 - Apache Solr administration (on K8s)
 - Kubernetes
+- Helm
+- GitOps (fluxcd)
 - Angular
+- Node Memory Debugging
 
 ## 💡 Learning/Basics
-- GitOps (flux)
 - Java
 - docker-compose
 - Terraform
 - Django/Wagtail
-- Dokku
-- Node Memory Debugging
-- Azure ARM/Bicep Deployment
+- Azure Bicep Deployment
 - International Development Financing
