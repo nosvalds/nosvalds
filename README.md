@@ -11,6 +11,7 @@
 - Git Hub Flow/Git Flow
 - Postman/Newman integration tests
 - Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments)
+- Apache Solr administration, schema design (on K8s)
 - dependabot (automation)
 - React
 - PHP (Laravel)
@@ -33,7 +34,6 @@
 - ESLint and Prettier implementation
 - Kusto Query Language (KQL)
 - Redis
-- Apache Solr administration (on K8s)
 - Kubernetes
 - Helm
 - GitOps (fluxcd)
