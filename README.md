@@ -47,3 +47,10 @@
 - Django/Wagtail
 - Azure Bicep Deployment
 - International Development Financing
+
+## 📚 Courses
+- The Linux Foundation - Node.js Application Development (LFW211) - Nov 2021
+- DevelopMe Coding Bootcamp - Fullstack Developer - Mar - Jun 2020
+
+## 🎓
+- Microsoft Certified: Azure Fundamentals - Jan 2021
