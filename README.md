@@ -52,5 +52,5 @@
 - The Linux Foundation - Node.js Application Development (LFW211) - Nov 2021
 - DevelopMe Coding Bootcamp - Fullstack Developer - Mar - Jun 2020
 
-## 🎓
+## 🎓 Certifications
 - Microsoft Certified: Azure Fundamentals - Jan 2021
