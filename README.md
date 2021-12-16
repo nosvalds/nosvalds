@@ -54,3 +54,4 @@
 
 ## 🎓 Certifications
 - Microsoft Certified: Azure Fundamentals - Jan 2021
+- The Linux Foundation - OpenJS Node.js Application Developer (JSNAD) - Dec 2021 - [link](https://www.credly.com/badges/eabeb77f-89ec-4d44-9573-bb9d59f5d74a/public_url)
