@@ -17,10 +17,6 @@
 - PHP (Laravel)
 
 ## 💡💡 Working Knowledge
-- Node.js
-  - Streams
-  - Mocking HTTP/WebSockets APIs
-  - Developing CLI Tools
 - Azure (Web Apps, App Gateway)
 - PostgreSQL
 - AWS (Lambda, DynamoDB, SES)
