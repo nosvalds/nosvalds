@@ -10,7 +10,7 @@
 - GitHub Actions CI/CD
 - Git Hub Flow/Git Flow
 - Postman/Newman integration tests
-- Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments, Durable Functions Async Request-Reply)
+- Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments, Durable Functions Async Request-Reply, Blobs)
 - Apache Solr administration, schema design (on K8s)
 - dependabot (automation)
 - React
