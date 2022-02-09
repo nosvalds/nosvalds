@@ -37,12 +37,14 @@
 - Node Memory Debugging
 
 ## 💡 Learning/Basics
+- MongoDB, Mongoose
 - Java
 - docker-compose
 - Terraform
 - Django/Wagtail
 - Azure Bicep Deployment
 - International Development Financing
+
 
 ## 📚 Courses
 - The Linux Foundation - Node.js Application Development (LFW211) - Nov 2021 - [link](https://www.credly.com/badges/18b1a277-c609-498c-897c-e56c5e578455/public_url)
