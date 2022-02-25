@@ -35,6 +35,7 @@
 - GitOps (fluxcd)
 - Angular
 - Node Memory Debugging
+- Linux
 
 ## 💡 Learning/Basics
 - MongoDB, Mongoose
