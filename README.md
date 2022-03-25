@@ -36,6 +36,7 @@
 - Angular
 - Node Memory Debugging
 - Linux
+- Slack App Development
 
 ## 💡 Learning/Basics
 - MongoDB, Mongoose
