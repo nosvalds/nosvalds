@@ -51,6 +51,7 @@
 
 
 ## 📚 Courses
+- The Linux Foundation - Introduction to Linux (LFS101x) - Q1 2022 - [link](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS101x+2T2021/home)
 - The Linux Foundation - Node.js Application Development (LFW211) - Nov 2021 - [link](https://www.credly.com/badges/18b1a277-c609-498c-897c-e56c5e578455/public_url)
 - DevelopMe Coding Bootcamp - Fullstack Developer - Mar - Jun 2020
 
