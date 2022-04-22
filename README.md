@@ -15,9 +15,11 @@
 - dependabot (automation)
 - React
 - PHP (Laravel)
+- Kanban
+- Green Software Development
 
 ## 💡💡 Working Knowledge
-- Azure (Web Apps, App Gateway)
+- Azure (AKS, Web Apps, App Gateway)
 - PostgreSQL
 - AWS (Lambda, DynamoDB, SES)
 - Serverless Framework
