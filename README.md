@@ -1,5 +1,5 @@
 ### Nik Osvalds ~ Developer @ International Aid Transparency Initiative ([IATI](https://github.com/IATI)) ~ Volunteer @ [DigitalHumani](https://digitalhumani.com) 🌲
-- 👨🏻‍💻 I like Node, DevOps, Serverless, and helping the planet 🌍   
+- 👨🏻‍💻 I like Node, DevOps, Serverless, learning new things, and helping the planet 🌍   
 - 🚲 ⛵️🏃🏻‍♂️🗺 Are my hobbies 
 - 🍻☕️ Likes good beer and coffee
 - 👨🏻 Pronouns: He/Him
@@ -13,8 +13,7 @@
 - Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments, Durable Functions Async Request-Reply, Blobs)
 - Apache Solr administration (on K8s), schema design, queries 
 - dependabot (automation)
-- React
-- PHP (Laravel)
+- Vue.js
 - Kanban
 - Green Software Development
 
@@ -27,7 +26,8 @@
 - Docker
 - Express.js
 - Python
-- Vue.js
+- React
+- PHP (Laravel)
 - Mocha/Chai Tests on Node
 - ESLint and Prettier implementation
 - Kusto Query Language (KQL)
