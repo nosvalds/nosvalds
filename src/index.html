@@ -507,9 +507,37 @@
 
       <h2 class="section-header" id="blogs">Blogs</h2>
       <section class="blog-section">
-        <h3>Medium Feed</h3>
-        <div id="medium-widget" aria-label="medium story feed"></div>
-        <h3>Other Blogs</h3>
+        <h3>Blogs</h3>
+        <div class="legacy-blogs about-section">
+          <div class="legacy-card">
+            <blockquote
+              class="embedly-card"
+              data-card-controls="0"
+              data-card-theme="dark"
+            >
+              <h4>
+                <a href="https://nosvalds.medium.com/">Medium Blogs</a>
+              </h4>
+              <p>
+                Personal Blog on technical and other random topics.
+              </p>
+            </blockquote>
+          </div>
+        <div class="legacy-blogs about-section">
+          <div class="legacy-card">
+            <blockquote
+              class="embedly-card"
+              data-card-controls="0"
+              data-card-theme="dark"
+            >
+              <h4>
+                <a href="https://iati.github.io/">IATI Developer Blog</a>
+              </h4>
+              <p>
+                Technical blog written by IATI developers.
+              </p>
+            </blockquote>
+          </div>
         <div class="legacy-blogs about-section">
           <div class="legacy-card">
             <blockquote
@@ -600,20 +628,6 @@
         </section>
       </footer>
     </div>
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>
-      MediumWidget.Init({
-        renderTo: "#medium-widget",
-        params: {
-          resource: "https://medium.com/@nosvalds/",
-          postsPerLine: 1,
-          limit: 4,
-          picture: "small",
-          fields: ["description", "author", "publishAt"],
-          ratio: "square",
-        },
-      });
-    </script>
     <script
       src="//cdn.embedly.com/widgets/platform.js"
       charset="UTF-8"
