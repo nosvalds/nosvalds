@@ -10,6 +10,6 @@ View changes locally with `/dist/index.html`
 npm run deploy
 ```
 - This packages up /dist/ directory and pushes it to kualo hosting using the gh-pages library. 
-- Kualo then auto-deploys it based on the .cpanel.yml file script
+- Login to Kaulo and hit the deploy button. Script doesn't seem to work anymore :(s
 
 
