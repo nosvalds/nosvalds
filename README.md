@@ -5,40 +5,39 @@
 - 👨🏻 Pronouns: He/Him
 
 ## 💡💡💡 Proficient
-- Node.js
-- Asynchronous JavaScript (Promises, async/await)
-- GitHub Actions CI/CD
+- <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="Javascript logo" width="50" height="50"> <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" alt="Node.js logo" width="50" height="50"> JavaScript & Node.js 
+  - Asynchronous JavaScript (Promises, async/await)
+- <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" alt="Node.js logo" width="50" height="50"> GitHub Actions CI/CD, dependabot (automation)
 - Git Hub Flow/Git Flow
+- <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" alt="postgresql logo" width="50" height="50"> PostgreSQL
+- <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="python logo" width="50" height="50"> Python
 - Postman/Newman integration tests
-- Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments, Durable Functions Async Request-Reply, Blobs)
-- Apache Solr administration (on K8s), schema design, queries 
-- dependabot (automation)
-- Vue.js
-- Kanban
+- <img src="https://github.com/devicons/devicon/blob/master/icons/azure/azure-original.svg" alt="azure logo" width="50" height="50"> Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments, Durable Functions Async Request-Reply, Blobs)
+- ![image](https://user-images.githubusercontent.com/60047271/167163461-58829f9b-6afc-495b-85ee-89ea08db4519.png) Apache Solr administration (on K8s), schema design, queries 
+- <img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" alt="vue logo" width="50" height="50"> Vue.js
+- <img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg" alt="trello logo" width="50" height="50"> Agile & Kanban
 - Green Software Development
 
 ## 💡💡 Working Knowledge
+- <img src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes logo" width="50" height="50"> Kubernetes
 - Azure (AKS, Web Apps, App Gateway)
-- PostgreSQL
-- AWS (Lambda, DynamoDB, SES)
-- Serverless Framework
-- XML & XSLT (Saxon-JS/Saxon-HE)
-- Docker
-- Express.js
-- Python
-- React
-- PHP (Laravel)
-- Mocha/Chai Tests on Node
+- <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="trello logo" width="50" height="50"> AWS (Lambda, DynamoDB, SES)
+- <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" alt="docker logo" width="50" height="50"> Docker
+- <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" alt="linux logo" width="50" height="50"> Linux
+- <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="react logo" width="50" height="50"> React
+- <img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" alt="php logo" width="50" height="50"> PHP (Laravel)
+- Mocha/Chai Tests
 - ESLint and Prettier implementation
 - Kusto Query Language (KQL)
 - Redis
-- Kubernetes
+- Express.js
 - Helm
 - GitOps (fluxcd)
 - Angular
 - Node Memory Debugging
-- Linux
 - Slack App Development
+- Serverless Framework
+- XML & XSLT (Saxon-JS/Saxon-HE)
 
 ## 💡 Learning/Basics
 - MongoDB, Mongoose
@@ -49,7 +48,6 @@
 - Azure Bicep Deployment
 - International Development Financing
 
-
 ## 📚 Courses
 - The Linux Foundation - Introduction to Linux (LFS101x) - Q1 2022 - [link](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS101x+2T2021/home)
 - The Linux Foundation - Node.js Application Development (LFW211) - Nov 2021 - [link](https://www.credly.com/badges/18b1a277-c609-498c-897c-e56c5e578455/public_url)
@@ -58,3 +56,7 @@
 ## 🎓 Certifications
 - Microsoft Certified: Azure Fundamentals - Jan 2021
 - The Linux Foundation - OpenJS Node.js Application Developer (JSNAD) - Dec 2021 - [link](https://www.credly.com/badges/eabeb77f-89ec-4d44-9573-bb9d59f5d74a/public_url)
+
+## 📈 GitHub Stats
+
+[![Nik's GitHub stats](https://github-readme-stats.vercel.app/api?username=nosvalds)](https://github.com/anuraghazra/github-readme-stats)
