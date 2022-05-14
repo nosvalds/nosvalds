@@ -10,6 +10,7 @@ View changes locally with `/dist/index.html`
 npm run deploy
 ```
 - This packages up /dist/ directory and pushes it to kualo hosting using the gh-pages library. 
-- Login to Kaulo and hit the deploy button. Script doesn't seem to work anymore :(s
+- Login to Kualo and hit the deploy button. Script doesn't seem to work anymore :(s
 
+https://my.kualo.com/uk/account/products
 
