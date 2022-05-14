@@ -124,20 +124,18 @@
             alt="iati datastore thumbnail"
             class="card-img"
           />
-          <h3 class="card-header">IATI Datastore Search</h3>
+          <h3 class="card-header">IATI Datastore & Datastore Search</h3>
           <h4 class="keywords">
-            Vue.js &#8286; Apache Solr &#8286; Azure Functions &#8286; Node.js Streams 
+            Vue.js &#8286; Apache Solr &#8286; Kubernetes &#8286; Azure Functions &#8286; Node.js Streams 
           </h4>
           <time class="date-time" datetime="2022-03">March 2022</time>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Culpa ut minima facere excepturi quo non natus ipsa esse et assumenda 
-            placeat in exercitationem consequuntur fuga, cum alias nesciunt debitis cupiditate.
+            The IATI Datastore processes and holds all International Aid Transparency Initiative (IATI) data in an Apache Solr instance.
+            Datastore Search allows anyone to search the IATI Datastore and then to download the data in either the original IATI XML, in JSON, or in CSV format.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Culpa ut minima facere excepturi quo non natus ipsa esse et assumenda 
-            placeat in exercitationem consequuntur fuga, cum alias nesciunt debitis cupiditate.
+            Lead on Solr infrastructure provisioning on Kubernetes and Solr schema design based on the IATI standard. Created the API documentation. 
+            Worked on various features for the Search web application including creating the Node.js microservice function to handle the downloading of data, which can be 10+ GB.
           </p>
           <section class="card-links linear">
             <a
@@ -152,7 +150,16 @@
             <a
               target="_blank"
               class="social-link"
-              href="https://datastore.iatistandard.org  "
+              href="https://datastore.iatistandard.org"
+              role="link"
+              aria-label="websitelink"
+            >
+              <i class="fas fa-link"></i>
+            </a>
+            <a
+              target="_blank"
+              class="social-link"
+              href="https://developer.iatistandard.org/api-details#api=datastore"
               role="link"
               aria-label="websitelink"
             >
@@ -168,18 +175,18 @@
           />
           <h3 class="card-header">IATI Validator API</h3>
           <h4 class="keywords">
-            Node.js &#8286; Azure (Serverless) Functions &#8286; Test Driven Development &#8286; Redis &#8286; RESTful API
+            Node.js &#8286; Azure (Serverless) Functions &#8286; Test Driven Development &#8286; Redis &#8286; REST API
           </h4>
           <time class="date-time" datetime="2021-09">Sept 2021</time>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Culpa ut minima facere excepturi quo non natus ipsa esse et assumenda 
-            placeat in exercitationem consequuntur fuga, cum alias nesciunt debitis cupiditate.
+            Built a fast and scalable synchronous REST API in Node.js on Azure (Serveless) Functions
+            that validates XML files against the International Aid Transparency Initiative (IATI) standard. 
+            The standard has 100's of rules defined in XML Schemas, attribute codelists, and JSON rulesets across 3 versions of the standard.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Culpa ut minima facere excepturi quo non natus ipsa esse et assumenda 
-            placeat in exercitationem consequuntur fuga, cum alias nesciunt debitis cupiditate.
+            Designed for easy updates/maintenance of the attribute codelist and JSON rulesets that doesn't require a re-deploy of the application as it did in the previous version.
+            Optimised to handle files up to the 60 Mb limit and still process them in the timeout limit of Azure Functions.
+            Able to validate all publically published IATI data (roughly 11 Gb) in X hours.
           </p>
           <section class="card-links linear">
             <a
@@ -195,6 +202,46 @@
               target="_blank"
               class="social-link"
               href="https://developer.iatistandard.org/api-details#api=iati-validator-v2&operation=post-pub-validate-post"
+              role="link"
+              aria-label="websitelink"
+            >
+              <i class="fas fa-link"></i>
+            </a>
+          </section>
+        </section>
+        <section class="card">
+          <img
+            src="./images/photos/adulting.webp"
+            alt="validator api thumbnail"
+            class="card-img"
+          />
+          <h3 class="card-header">Adulting Web App</h3>
+          <h4 class="keywords">
+            Vue.js &#8286; OAuth2 &#8286; Heroku
+          </h4>
+          <time class="date-time" datetime="2021-01">Jan 2021</time>
+          <p>
+            Built a simple front end application in Vue.js to simplify my expense tracking with <a href="https://www.splitwise.com">Splitwise</a>. 
+            Uses a <a href="https://github.com/Bearer/Pizzly">Pizzly</a> (OAuth2) instance to interact with the <a href="https://dev.splitwise.com/#introduction">Splitwise API</a>.
+          </p>
+          <p>
+            I configured and hosted a Pizzly instance of my own on Heroku, after adding Splitwise as a supported integration in a PR to Pizzly.
+            This was my first foray into Vue.js, which helped me learn for my work on <a href="https://digitalhumani.com">DigitalHumani's</a> new dashboard. I used vue-material as my UI kit.
+          </p>
+          <section class="card-links linear">
+            <a
+              class="social-link"
+              href="https://github.com/nosvalds/adulting"
+              target="_blank"
+              role="link"
+              aria-label="github repository link"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              target="_blank"
+              class="social-link"
+              href="https://adulting.nikolaso.com/"
               role="link"
               aria-label="websitelink"
             >
