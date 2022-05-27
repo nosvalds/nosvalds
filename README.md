@@ -12,8 +12,20 @@
 - <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" alt="postgresql logo" width="50" height="50"> PostgreSQL
 - <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="python logo" width="50" height="50"> Python
 - Postman/Newman integration tests
-- <img src="https://github.com/devicons/devicon/blob/master/icons/azure/azure-original.svg" alt="azure logo" width="50" height="50"> Azure (ACI, Serverless Functions, AppInsights Node SDK, API Management, ARM deployments, Durable Functions Async Request-Reply, Blobs)
-- ![solr_logo](https://user-images.githubusercontent.com/60047271/167163461-58829f9b-6afc-495b-85ee-89ea08db4519.png) Apache Solr administration (on K8s), schema design, queries 
+- <img src="https://github.com/devicons/devicon/blob/master/icons/azure/azure-original.svg" alt="azure logo" width="50" height="50"> Azure 
+  - Serverless Functions
+  - Storage
+  - ACI
+  - API Management
+  - ARM deployments
+  - AppInsights Node SDK
+  - Durable Functions Async Request-Reply
+- ![solr_logo](https://user-images.githubusercontent.com/60047271/167163461-58829f9b-6afc-495b-85ee-89ea08db4519.png) Apache Solr
+  - Administration (on Kubernetes)
+  - Schema design
+  - Query API 
+- <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" alt="docker logo" width="50" height="50"> Docker
+- <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" alt="linux logo" width="50" height="50"> Linux
 - <img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" alt="Vue.js logo" width="50" height="50"> Vue.js
 - <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="html logo" width="50" height="50"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="CSS logo" width="50" height="50"> HTML5, CSS
 - <img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg" alt="Trello logo" width="50" height="50"> Agile & Kanban
@@ -21,10 +33,12 @@
 
 ## 💡💡 Working Knowledge
 - <img src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes logo" width="50" height="50"> Kubernetes
-- Azure (AKS, Web Apps, App Gateway)
+- Azure
+  - AKS
+  - Web Apps
+  - App Gateway
 - <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="aws logo" width="50" height="50"> AWS (Lambda, DynamoDB, SES)
-- <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" alt="docker logo" width="50" height="50"> Docker
-- <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" alt="linux logo" width="50" height="50"> Linux
+
 - <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="react logo" width="50" height="50"> React
 - <img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" alt="php logo" width="50" height="50"> PHP (Laravel)
 - Mocha/Chai Tests
