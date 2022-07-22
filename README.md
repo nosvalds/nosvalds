@@ -56,6 +56,7 @@
 - <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss logo" width="50" height="50"> TailwindCSS
 
 ## 💡 Learning/Basics
+- <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy logo" width="50" height="50"> NumPy, <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" alt="pandas logo" width="50" height="50"> pandas
 - <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" alt="mongodb logo" width="50" height="50"> MongoDB, Mongoose
 - <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" alt="java logo" width="50" height="50"> Java
 - docker-compose
