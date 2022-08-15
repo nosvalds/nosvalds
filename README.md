@@ -32,6 +32,7 @@
 - Green Software Development
 
 ## 💡💡 Working Knowledge
+- <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy logo" width="50" height="50"> NumPy, <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" alt="pandas logo" width="50" height="50"> pandas
 - <img src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes logo" width="50" height="50"> Kubernetes
 - Azure
   - AKS
@@ -56,7 +57,6 @@
 - <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss logo" width="50" height="50"> TailwindCSS
 
 ## 💡 Learning/Basics
-- <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy logo" width="50" height="50"> NumPy, <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" alt="pandas logo" width="50" height="50"> pandas
 - <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" alt="mongodb logo" width="50" height="50"> MongoDB, Mongoose
 - <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" alt="java logo" width="50" height="50"> Java
 - docker-compose
@@ -66,6 +66,7 @@
 - International Development Financing
 
 ## 📚 Courses
+- University of Michigan (Coursera) - Introduction to Data Science in Python - July-Aug 2022 - [link](https://coursera.org/verify/RCVYVQL4HR9Z)
 - The Linux Foundation - Introduction to Linux (LFS101x) - Q1 2022 - [link](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS101x+2T2021/home)
 - The Linux Foundation - Node.js Application Development (LFW211) - Nov 2021 - [link](https://www.credly.com/badges/18b1a277-c609-498c-897c-e56c5e578455/public_url)
 - DevelopMe Coding Bootcamp - Fullstack Developer - Mar - Jun 2020
