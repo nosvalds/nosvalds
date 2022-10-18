@@ -1,4 +1,4 @@
-### Nik Osvalds ~ Developer @ International Aid Transparency Initiative ([IATI](https://github.com/IATI)) ~ Volunteer @ [DigitalHumani](https://digitalhumani.com) 🌲
+### Nik Osvalds ~ Fullstack/DevOps Engineer @ International Aid Transparency Initiative ([IATI](https://github.com/IATI)) ~ Volunteer/Board Member @ [DigitalHumani](https://digitalhumani.com) 🌲
 - 👨🏻‍💻 I like Node, DevOps, Serverless, learning new things, and helping the planet 🌍   
 - 🚲 ⛵️🏃🏻‍♂️🗺 Are my hobbies 
 - 🍻☕️ Likes good beer and coffee
