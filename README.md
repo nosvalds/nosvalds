@@ -66,7 +66,7 @@
 - International Development Financing
 
 ## 📚 Courses
-- University of Michigan (Coursera) - Applied Machine Learning in Python - Oct-
+- University of Michigan (Coursera) - Applied Machine Learning in Python - Oct-Nov 2022 - [link](https://coursera.org/share/f98e6f05038f91747028917b87d4437f)
 - University of Michigan (Coursera) - Applied Plotting, Charting & Data Representation in Python - Sept-Oct 2022 - [link](https://coursera.org/share/c48905dd177656890ad77e3687a25c2c)
 - University of Michigan (Coursera) - Introduction to Data Science in Python - July-Aug 2022 - [link](https://coursera.org/verify/RCVYVQL4HR9Z)
 - The Linux Foundation - Introduction to Linux (LFS101x) - Q1 2022 - [link](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS101x+2T2021/home)
