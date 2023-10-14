@@ -1,5 +1,5 @@
-### Nik Osvalds ~ Fullstack/DevOps Engineer @ International Aid Transparency Initiative ([IATI](https://github.com/IATI)) ~ Volunteer/Board Member @ [DigitalHumani](https://digitalhumani.com) 🌲
-- 👨🏻‍💻 I like Node, DevOps, Serverless, learning new things, and helping the planet 🌍   
+### Nik Osvalds ~ Fullstack Engineer @ EVLO Energy Storage Inc. ~ Volunteer/Board Member @ [DigitalHumani](https://digitalhumani.com) 🌲
+- 👨🏻‍💻 I like learning new things and helping the planet 🌍   
 - 🚲 ⛵️🏃🏻‍♂️🗺 Are my hobbies 
 - 🍻☕️ Likes good beer and coffee
 - 👨🏻 Pronouns: He/Him
