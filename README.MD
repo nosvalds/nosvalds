@@ -6,11 +6,9 @@
 View changes locally with `/dist/index.html`
 
 ## Deployment
-```
-npm run deploy
-```
-- This packages up /dist/ directory and pushes it to kualo hosting using the gh-pages library. 
-- Login to Kualo and hit the deploy button. Script doesn't seem to work anymore :(s
-
-https://my.kualo.com/uk/account/products
-
+ 
+ - `gulp` to build into `dist/` directory
+ - Merge to `gh-pages` branch
+ - git mv to `docs/` directory
+ - `git push remote gh-pages` branch
+ - Then github pages will automatically publish from the github.com/nosvalds/nosvalds repo to www.nikolaso.com
