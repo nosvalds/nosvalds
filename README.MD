@@ -1,16 +1,23 @@
 # Site Notes
-## Tooling
-`gulp` to compile to `/dist`
-`gulp watch` to watch and auto-compile during development
 
-View changes locally with `/dist/index.html`
+## Prerequisites
+
+- Node.js (recommend install with nvm)
+
+## Getting started
+
+- `npm install`
+
+## Tooling
+- `npm build` - uses `gulp` to compile to `/dist`
+- `npm watch` - uses `gulp watch` to watch and auto-compile during development
+
+- Right click "use live server" on `/dist/index.html` to run the site locally for development
 
 ## Deployment
-```
-npm run deploy
-```
-- This packages up /dist/ directory and pushes it to kualo hosting using the gh-pages library. 
-- Login to Kualo and hit the deploy button. Script doesn't seem to work anymore :(s
-
-https://my.kualo.com/uk/account/products
-
+ 
+ - `gulp` to build into `dist/` directory
+ - Merge to `gh-pages` branch
+ - git mv to `docs/` directory
+ - `git push remote gh-pages` branch
+ - Then github pages will automatically publish from the github.com/nosvalds/nosvalds repo to www.nikolaso.com

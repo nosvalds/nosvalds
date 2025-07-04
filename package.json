@@ -4,6 +4,8 @@
   "description": "my portfolio website",
   "main": "index.js",
   "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
     "deploy": "gulp && NODE_DEBUG=gh-pages node deploy.js"
   },
   "repository": {
