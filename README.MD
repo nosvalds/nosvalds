@@ -15,9 +15,10 @@
 - Right click "use live server" on `/dist/index.html` to run the site locally for development
 
 ## Deployment
- 
+ (first time `git remote add git@github.com:nosvalds/nosvalds.git`)
+
  - `gulp` to build into `dist/` directory
  - Merge to `gh-pages` branch
  - git mv to `docs/` directory
- - `git push origin gh-pages` branch
+ - `git push remote gh-pages` branch
  - Then github pages will automatically publish from the github.com/nosvalds/nosvalds repo to www.nikolaso.com
