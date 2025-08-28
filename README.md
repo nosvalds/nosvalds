@@ -1,4 +1,4 @@
-### Nik Osvalds ~ Fullstack Engineer @ EVLO Energy Storage Inc. ~ Volunteer/Board Member @ [DigitalHumani](https://digitalhumani.com) 🌲
+### Nik Osvalds ~ UI Technical Lead @ EVLO Energy Storage Inc. ~ Volunteer/Board Member @ [DigitalHumani](https://digitalhumani.com) 🌲
 - 👨🏻‍💻 I like learning new things and helping the planet 🌍   
 - 🚲 ⛵️🏃🏻‍♂️🗺 Are my hobbies 
 - 🍻☕️ Likes good beer and coffee
